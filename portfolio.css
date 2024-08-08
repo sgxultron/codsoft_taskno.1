@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: url('background02.jpeg') no-repeat center center/cover;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+   
+
+    background-color: #638792;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: 333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.hero {
+     background: url('bg001.jpeg') no-repeat center center/cover;
+    color: #ddd;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.rocket {
+    font-size: 1.5em;
+    color: #718ca1; 
+}
+
+
+.buttons button {
+    background-color: #007bff; 
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+
+.about {
+    padding: 60px 0;
+    text-align: justify;
+}
+
+.about p {
+    text-align: justify;
+    color: #555
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+
+.projects {
+    padding: 60px 0;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+.skills {
+    padding: 60px 0;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    }
+
+    .hero h2 {
+        font-size: 2.5em;
+    }
+}
